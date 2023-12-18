@@ -50,6 +50,14 @@ div > .aboutItem:hover {
   padding: 25px;
 }
 
+.hamburguerMenu input {
+  appearance: none;
+  padding: var(--hamburgeur-margin);
+  margin: var(--hamburgeur-margin);
+  outline: 0;
+  pointer-events: none;
+}
+
 #navContainer > #navImgContainer {
   margin-left: 15px;
 }
@@ -112,7 +120,7 @@ div > .aboutItem:hover {
   display: flex;
   border: 1px solid transparent;
   background-color: #f0efef81;
-  border-radius: 20px;
+  border-radius: 9999px;
   gap: 15px;
   padding: 10px;
 }
@@ -306,227 +314,4 @@ div > .aboutItem:hover {
 
 #shoesSelecionado {
   border: 1px solid black;
-}
-
-@media (min-width: 319px) and (max-width: 423px) {
-  header > #headerContainer {
-    height: 5rem;
-    width: 100%;
-  }
-  #headerIcon > .iconHeaderItem {
-    width: 35px;
-    height: 35px;
-  }
-
-  div > .aboutItem {
-    font-size: 17px;
-  }
-
-  #navContainer {
-    width: 100%;
-    height: 10rem;
-  }
-
-  #navContainer > #navImgContainer > #iconNikeItem {
-    width: 80px;
-    height: 25px;
-  }
-
-  #navContainer > #navLinksContainer {
-    gap: 13px;
-    margin-left: 10px;
-  }
-
-  .navLinksItem {
-    font-size: 23px;
-  }
-
-  #navContainer > #inputContainer {
-    gap: 0px;
-    padding: 10px;
-  }
-
-  #navContainer > #inputContainer:hover {
-    gap: 10px;
-    padding: 10px;
-  }
-  #navContainer > #inputContainer:after {
-    gap: 0px;
-    padding: 10px;
-  }
-
-  #navContainer > #inputContainer > #searchNav {
-    width: 0px;
-    height: 20px;
-    font-size: 0px;
-    transition: 1s;
-  }
-
-  #navContainer > #inputContainer > #searchNav:after {
-    width: 0px;
-    font-size: 0px;
-    transition: 1s;
-  }
-
-  #navContainer > #inputContainer > #searchNav:hover {
-    width: 100px;
-    font-size: 15px;
-    transition: 1s;
-  }
-
-  #navContainer > #inputContainer > #searchNavLabel {
-    width: 25px;
-    height: 25px;
-  }
-  #navContainer > #emojiIconContainer {
-    gap: 10px;
-    padding: 0px 50px 0px 0px;
-  }
-
-  #navContainer > #emojiIconContainer > .emojiIconItem {
-    width: 40px;
-    height: 40px;
-    padding: 2px;
-  }
-
-  #sectionHeaderContainer {
-    width: 100%;
-    height: 8rem;
-  }
-
-  #sectionHeaderContainer > .nextItem {
-    font-size: 40px;
-  }
-
-  #textItemSectionHeader {
-    font-size: 27px;
-  }
-
-  #sectionNavContainer {
-    width: 100%;
-    height: 7rem;
-  }
-
-  #sectionNavItemContainer {
-    gap: 8px;
-    margin-left: 40px;
-  }
-
-  #sectionNavItemContainer > .sectionNavItem {
-    font-size: 20px;
-  }
-
-  #mainContainer {
-    flex-direction: column;
-  }
-
-  #pictureContainer {
-    width: 100%;
-    justify-content: center;
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-    padding: 0px 0px 0px 35px;
-  }
-
-  .shoesItem {
-    width: 255px;
-    height: 250px;
-  }
-  #especificContainer {
-    width: 100%;
-    padding: 80px 0px 0px 20px;
-  }
-
-  .h2MainItem {
-    font-size: 50px;
-  }
-
-  .runItem {
-    font-size: 35px;
-  }
-
-  .starItem {
-    font-size: 25px;
-  }
-
-  #numberStar > p {
-    font-size: 25px;
-  }
-
-  #viewAvaliaion {
-    font-size: 25px;
-  }
-
-  .valueMainContainer {
-    display: flex;
-    gap: 15px;
-    padding-top: 15px;
-  }
-
-  #valueContainer {
-    font-size: 35px;
-  }
-
-  #valueBefore {
-    color: #979797;
-    text-decoration: line-through;
-    font-size: 35px;
-  }
-
-  #descontItem {
-    font-size: 30px;
-    padding-left: 10px;
-    color: #45c75b;
-  }
-
-  #otherValue {
-    margin-top: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 30px;
-  }
-
-  #imgEspecificContainer {
-    display: flex;
-    flex-wrap: wrap;
-    width: 40%;
-    margin-top: 30px;
-  }
-
-  .shoesItemEspecific {
-    width: 120px;
-    height: 120px;
-  }
-
-  #shoesSelecionado {
-    border: 1px solid black;
-  }
-}
-@media (min-width: 423px) and (max-width: 720px) {
-  .navLinksItem {
-    font-size: 30px;
-  }
-  #navContainer > #inputContainer > #searchNav:hover {
-    width: 100px;
-    font-size: 25px;
-    transition: 1s;
-  }
-
-  #navContainer > #inputContainer > #searchNavLabel {
-    width: 35px;
-    height: 35px;
-  }
-
-  #pictureContainer {
-    width: 100%;
-    justify-content: center;
-    display: flex;
-    gap: 15px;
-    flex-wrap: wrap;
-    padding: 0px 0px 0px 35px;
-  }
-  .shoesItem {
-    width: 305px;
-    height: 300px;
-  }
 }

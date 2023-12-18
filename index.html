@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="style/style.css" />
     <title>Nike - Produtos e Coleções Exclusivas</title>
   </head>
-  <body>
+  <div id="headerNavContainer">  <body>
     <header>
       <div id="headerContainer">
         <div id="headerIcon">
@@ -18,9 +18,9 @@
         </div>
         <div id="aboutContainer">
           <div id="aboutItemOne"><p class="aboutItem">Ajuda</p></div>
-          <p>|</p>
+          <p class="bar-vertical">|</p>
           <div id="aboutItemTwo"><p class="aboutItem">Junte-se a nós</p></div>
-          <p>|</p>
+          <p class="bar-vertical">|</p>
           <div id="aboutItemThree"><p class="aboutItem">Entrar</p></div>
         </div>
       </div>
@@ -30,13 +30,23 @@
         <div id="navImgContainer">
           <img src="img/nike-99.png" alt="iconNike" id="iconNikeItem" />
         </div>
+
+         <div id="hamburguerMenuContainer">
+          <label class="hamburguerMenu">
+            <input type="checkbox">
+          </label>
+          <aside class="sidebar">
+            <nav>
+          </aside>
+         </div>
+        
         <div id="navLinksContainer">
-          <div class="navLinksItem" id="navLinksItem1"><p>Lançamentos</p></div>
-          <div class="navLinksItem" id="navLinksItem2">Masculino</div>
-          <div class="navLinksItem" id="navLinksItem3">Feminino</div>
-          <div class="navLinksItem" id="navLinksItem4">Infantil</div>
-          <div class="navLinksItem" id="navLinksItem5">Ofertas</div>
-          <div class="navLinksItem" id="navLinksItem6">SKRNS</div>
+          <div id="navLinksItem1"><p class="navLinksItem">Lançamentos</p></div>
+          <div id="navLinksItem2"><p class="navLinksItem">Masculino</p></div>
+          <div id="navLinksItem3"><p class="navLinksItem">Feminino</p></div>
+          <div id="navLinksItem4"><p class="navLinksItem">Infantil</p></div>
+          <div id="navLinksItem5"><p class="navLinksItem">Ofertas</p></div>
+          <div id="navLinksItem6"><p class="navLinksItem">SKRNS</p></div>
         </div>
         <div id="inputContainer">
           <label for="searchNav" id="searchNavLabel"
@@ -98,7 +108,7 @@
           </svg>
         </div>
       </div>
-    </nav>
+    </nav></div>
     <section>
       <div id="sectionHeaderContainer">
         <p class="nextItem"><</p>
@@ -113,9 +123,9 @@
       <div id="sectionNavContainer">
         <div id="sectionNavItemContainer">
           <p class="sectionNavItem">Masculino</p>
-          <p>/</p>
+          <p class="barNavItem">/</p>
           <p class="sectionNavItem">Calçados</p>
-          <p>/</p>
+          <p class="barNavItem">/</p>
           <p class="sectionNavItem">Tênis</p>
         </div>
       </div>
